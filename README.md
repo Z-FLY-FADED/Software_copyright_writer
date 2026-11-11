@@ -1,5 +1,7 @@
 # Software Copyright Writer
 
+**简体中文** · [English](README.en.md)
+
 `Software_copyright_writer` 是一个面向中文软件著作权材料编写的 Codex Skill。它帮助 Codex 根据源代码、项目文档、参考软著文档和 Word 模板，生成规范的《软件设计说明书》《软件使用说明书》《用户操作手册》等材料，并可按需要补充架构图、流程图、模块表、环境表和测试用例表。
 
 ## 适用场景
@@ -37,10 +39,10 @@ Software_copyright_writer/
 
 ```text
 请使用 Software_copyright_writer skill，根据以下材料生成一份软件著作权说明书：
-源码路径：C:\Users\Compus\Desktop\soft_code
-参考软著路径：C:\Users\Compus\Desktop\soft_ref
-模板路径：C:\Users\Compus\Desktop\template\软著模板.docx
-输出路径：C:\Users\Compus\Desktop\soft_output
+源码路径：[源码目录]
+参考软著路径：[参考资料目录]
+模板路径：[Word 模板路径]
+输出路径：[输出目录]
 
 要求：
 1. 文档类型为软件设计说明书，正文不少于 20 页；
@@ -77,4 +79,3 @@ output/
 - 参考样稿放入 `references/`，但生成新文档时只参考结构和风格，不直接复制正文。
 - 模板、封面图、样式文件等放入 `assets/`。
 - 重复性强、容易出错的代码分析或文档转换流程，优先沉淀到 `scripts/`。
-
